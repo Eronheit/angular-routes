@@ -31,6 +31,7 @@ export class CursosComponent implements OnInit, OnDestroy {
     )
   }
 
+
   ngOnDestroy(): void {
     this.inscricao.unsubscribe();
   }
