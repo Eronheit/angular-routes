@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 import { CursosModule } from './cursos/cursos.module';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
-import { AlunosComponent } from './alunos/alunos.component';
 import { AlunosModule } from './alunos/alunos.module';
 
 
