@@ -9,6 +9,8 @@ export class AlunosGuard implements CanActivateChild {
   canActivateChild(
     childRoute: ActivatedRouteSnapshot,
     state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
+
+      console.log('AlunosGuard: Guarda de rotas filhas')
       //console.log(childRoute)
       if(state.url.includes('editar') ) {
         //alert('Usuário não pode acessar esta rota');
