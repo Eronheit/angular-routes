@@ -24,14 +24,14 @@ export class AlunoFormComponent implements OnInit {
     console.log('mudou')
   }
 
-  podeMudarRota() {
-    if(this.formMudou){
-      confirm('Tem certeza que deseja sair dessa página?');
+  podeMudarRota(){
+    if(this.formMudou) {
+        return confirm('Tem certeza que deseja sair dessa página');
     }
     return true;
   }
 
-  podeDesativar() {
+  podeDesativar(){
     return this.podeMudarRota();
   }
 
